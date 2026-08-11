@@ -16,7 +16,7 @@ const serif = Noto_Serif_KR({
   display: "swap",
 });
 
-const title = "SILLÉANCE — Urbanbrook를 위한 독립 향 기억 콘셉트 | AgentBa.se";
+const title = "SILLÉANCE — Urbanbrook을 위한 독립 향 기억 콘셉트 | AgentBa.se";
 const description =
   "Two Weeks Team이 독립적으로 작성한 비공식 향·공간·웰니스 콘셉트 제안입니다. Urbanbrook의 공식 사이트나 확정 프로그램이 아닙니다.";
 
