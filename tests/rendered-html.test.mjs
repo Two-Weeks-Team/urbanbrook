@@ -46,6 +46,9 @@ test("server-renders the independent scent-memory proposal", async () => {
   assert.match(html, /PEAU/);
   assert.match(html, /LIN/);
   assert.match(html, /Camille/);
+  assert.match(html, /나만의 [“"]?리추얼 큐레이터/);
+  assert.match(html, /YOUR PERSONAL RITUAL CURATOR/);
+  assert.doesNotMatch(html, /담당자/);
   assert.match(html, /같은 향/);
   assert.match(html, /다른 향/);
   assert.match(html, /무향/);

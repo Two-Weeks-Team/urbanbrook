@@ -67,7 +67,7 @@ const experienceFlow = [
   { name: "SCENT", korean: "향", detail: "감각적 단서" },
   { name: "MEMORY", korean: "기억", detail: "개인적 연결" },
   { name: "DAILY LIFE", korean: "일상", detail: "반복되는 접점" },
-  { name: "PERSONA", korean: "Agent", detail: "이어지는 담당자" },
+  { name: "PERSONA", korean: "Agent", detail: "나만의 리추얼 큐레이터" },
 ];
 
 const ritualFlow = [
@@ -518,7 +518,7 @@ export default function Home() {
           <DeckSectionLabel>INDEPENDENT CONCEPT PROPOSAL</DeckSectionLabel>
           <h1 id="deck-hero-title">공간에서 만든 기억을,<br /><em>일상으로.</em></h1>
           <p>
-            공간의 복합문화 경험을 향과 Persona Agent로 이어,
+            공간의 복합문화 경험을 향과 Persona Agent 기반 전담 큐레이터로 이어,
             웰니스의 일상적 리추얼로 확장하는 독립 제안입니다.
           </p>
         </div>
@@ -601,7 +601,7 @@ export default function Home() {
         <div className="deck-experience-flow" aria-labelledby="deck-experience-flow-title">
           <div className="deck-flow-intro">
             <p id="deck-experience-flow-title">EXPERIENCE EXTENSION</p>
-            <strong>공간의 경험이 일상의 담당자로 이어지는 여섯 단계</strong>
+            <strong>공간의 경험이 나만의 리추얼 큐레이터로 이어지는 여섯 단계</strong>
           </div>
           <ol className="deck-flow-list deck-flow-list--six">
             {experienceFlow.map((step, index) => (
@@ -1025,10 +1025,11 @@ export default function Home() {
         <div className="deck-section-heading deck-section-heading--split">
           <div>
             <DeckSectionLabel>07 / PERSONA AGENT</DeckSectionLabel>
-            <h2>개인화의 핵심은 추천이 아니라,<br />이어지는 “담당자”입니다.</h2>
+            <h2>개인화의 핵심은 추천이 아니라,<br />나만의 “리추얼 큐레이터”입니다.</h2>
           </div>
           <p>
-            Camille은 가상의 Persona입니다. 아래 흐름은 AI 응답이 아닌 사전 작성된 로컬 데모이며,
+            미술관의 큐레이터가 작품 사이의 맥락을 만들듯, Camille은 사용자가 허용한 반응만 바탕으로
+            향·상태·사용 형식을 연결하는 가상의 전담 큐레이터입니다. 아래 흐름은 사전 작성된 로컬 데모이며,
             선택과 가상 메모리는 이 브라우저 화면 밖으로 전송되거나 저장되지 않습니다.
           </p>
         </div>
@@ -1037,7 +1038,7 @@ export default function Home() {
           <aside className="deck-camille-sidebar">
             <div className="deck-camille-profile">
               <span>C</span>
-              <div><strong>Camille</strong><small>YOUR RITUAL COMPANION · CONCEPT</small></div>
+              <div><strong>Camille</strong><small>YOUR PERSONAL RITUAL CURATOR · CONCEPT</small></div>
             </div>
             <ol className="deck-camille-steps" aria-label="Persona 데모 단계">
               <li aria-current={camilleStep === 0 ? "step" : undefined}><span>01</span>상태를 묻습니다</li>
@@ -1235,7 +1236,7 @@ export default function Home() {
             <li><span>01</span><strong>같은 향 인지</strong><p>시간이 지난 뒤 향의 일치 여부를 구분하는가</p></li>
             <li><span>02</span><strong>cross-format 연결</strong><p>AIR와 PULSE가 같은 정체성으로 느껴지는가</p></li>
             <li><span>03</span><strong>1-2주 후 자발적 재사용</strong><p>안내 없이 다시 리추얼을 선택하는가</p></li>
-            <li><span>04</span><strong>Agent 재진입</strong><p>담당자 개념이 다음 사용을 돕는가</p></li>
+            <li><span>04</span><strong>Curator 재진입</strong><p>전담 큐레이터 경험이 다음 사용을 돕는가</p></li>
             <li><span>05</span><strong>US / France 메시지 반응</strong><p>국가별 카피와 형식의 차이가 나타나는가</p></li>
           </ol>
           <div className="deck-go-no-go">
