@@ -24,6 +24,13 @@ Final prompt:
 - Method: text-free square crop of `public/og.png`, resized and encoded as WebP
 - Intended use: main-page spatial and scent-flow visual
 
+## `public/hero-wide.webp`
+
+- Created: 2026-08-11
+- Method: visually lossless WebP derivative of `public/og.png` at the original 1731 x 909 composition
+- Intended use: first-viewport editorial cover, preserving the complete generated composition requested by the project owner
+- Text and visual origin: identical to the reviewed `public/og.png`; no third-party source material added
+
 ## Rejected source assets
 
 The private proposal's event photograph, third-party product photographs, and meditation stock photograph are not included because public reuse rights were not established.

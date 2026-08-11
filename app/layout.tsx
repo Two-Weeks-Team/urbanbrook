@@ -16,15 +16,15 @@ const serif = Noto_Serif_KR({
   display: "swap",
 });
 
-const title = "SILLÉANCE — Urbanbrook을 위한 독립 향 기억 콘셉트 | AgentBa.se";
+const title = "SILLÉANCE — 공간에서 만든 기억을 일상으로 | AgentBa.se";
 const description =
-  "Two Weeks Team이 독립적으로 작성한 비공식 향·공간·웰니스 콘셉트 제안입니다. Urbanbrook의 공식 사이트나 확정 프로그램이 아닙니다.";
+  "Urbanbrook의 공간 경험을 향 기억, 제품 시스템, Persona Agent, 12주 파일럿으로 확장한 Two Weeks Team의 상세 인터랙티브 독립 제안입니다.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://urbanbrook.agentba.se"),
   title,
   description,
-  applicationName: "Urbanbrook Scent Memory Concept",
+  applicationName: "SILLÉANCE Interactive Proposal",
   authors: [{ name: "Two Weeks Team · AgentBa.se" }],
   icons: {
     icon: "/favicon.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: "/",
-    siteName: "Urbanbrook Scent Memory Concept",
+    siteName: "SILLÉANCE Interactive Proposal",
     title,
     description,
     images: [

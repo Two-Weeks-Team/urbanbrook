@@ -33,12 +33,29 @@ test("server-renders the independent scent-memory proposal", async () => {
   const html = await response.text();
   assert.match(html, /SILLÉANCE/);
   assert.match(html, /Independent concept proposal/i);
+  assert.match(html, /공간에서 만든 기억을, 일상으로/);
   assert.match(html, /Two Weeks Team \/ AgentBa\.se/);
   assert.match(html, /Urbanbrook의 승인·제휴·출시를 의미하지 않습니다/);
+  assert.match(html, /hero-wide\.webp/);
   assert.match(html, /scent-flow\.webp/);
+  assert.match(html, /LIFE MOMENTS/);
+  assert.match(html, /BUSINESS &amp; MICE/);
   assert.match(html, /RETOUR/);
   assert.match(html, /CLAIR/);
-  assert.match(html, /서버로 전송하거나 저장하지 않습니다/);
+  assert.match(html, /NUIT/);
+  assert.match(html, /PEAU/);
+  assert.match(html, /LIN/);
+  assert.match(html, /Camille/);
+  assert.match(html, /같은 향/);
+  assert.match(html, /다른 향/);
+  assert.match(html, /무향/);
+  assert.match(html, /\$7\.1B/);
+  assert.match(html, /SocialSeed\.ing/i);
+  assert.match(html, /WEEK 1[–-]3/i);
+  assert.match(html, /MoCRA/);
+  assert.match(html, /GDPR/);
+  assert.match(html, /IFRA/);
+  assert.match(html, /서버 전송 없음 · 영구 저장 없음/);
   assert.match(html, /name="robots" content="noindex, nofollow"/i);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/);
@@ -52,11 +69,13 @@ test("static export includes the public page and rights-safe assets", async () =
 
   assert.match(html, /SILLÉANCE/);
   assert.match(html, /\/og\.png/);
+  assert.match(html, /\/hero-wide\.webp/);
   assert.match(html, /\/scent-flow\.webp/);
   assert.match(licenses, /OpenAI (?:built-in )?image generation/i);
 
   await Promise.all([
     access(new URL("../dist/client/og.png", import.meta.url)),
+    access(new URL("../dist/client/hero-wide.webp", import.meta.url)),
     access(new URL("../dist/client/favicon.png", import.meta.url)),
     access(new URL("../dist/client/scent-flow.webp", import.meta.url)),
   ]);

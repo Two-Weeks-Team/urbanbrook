@@ -2,14 +2,16 @@
 
 An independent, public concept proposal by Two Weeks Team / AgentBa.se.
 
-The site explores how an experience that begins in a physical space could be carried into daily life through scent, ritual, and a future Persona Agent. It is a proposal for discussion, not an official Urbanbrook website, product launch, partnership announcement, or medical service.
+The site is the detailed interactive companion to a concise submission deck. It expands the complete proposal journey: Urbanbrook's existing experience assets, scent-memory evidence and hypotheses, mental-wellness market signals, the SILLÉANCE state and product system, a four-SKU launch roadmap, a user-controlled Persona Memory concept, a 12-week pilot, proposed collaboration roles, guardrails, and a claim-linked source hub.
+
+It is a proposal for discussion, not an official Urbanbrook website, product launch, signed partnership announcement, or medical service.
 
 ## Public-content boundary
 
 This repository intentionally excludes:
 
 - the private first-proposal PDF and meeting notes;
-- attendee details, negotiations, budgets, and internal pilot protocols;
+- attendee details, negotiations, budgets, final owners, sample sizes, success thresholds, and internal pilot operations;
 - unlicensed Urbanbrook, press, stock, or third-party product imagery;
 - production prompts, personal data, API keys, and live agent memory.
 
@@ -44,8 +46,8 @@ No runtime functions, storage, or environment variables are required.
 
 ## Status
 
-- `SILLÉANCE`, `RETOUR 01`, `CLAIR 02`, `AIR`, and `PULSE` are working concept names.
-- The Persona interaction is a deterministic, no-storage concept demo.
+- `SILLÉANCE`, `RETOUR 01`, `CLAIR 02`, `NUIT 03`, `AIR`, `PULSE`, `PEAU`, and `LIN` are working concept names.
+- The Camille Persona interaction is a deterministic concept demo. Its memory view is simulated in React state only and is never persisted or transmitted.
 - The site is configured as `noindex` while the concept and name clearance remain under review.
 - Sources are recorded in [SOURCES.md](./SOURCES.md).
 - Asset provenance is recorded in [ASSET_LICENSES.md](./ASSET_LICENSES.md).
